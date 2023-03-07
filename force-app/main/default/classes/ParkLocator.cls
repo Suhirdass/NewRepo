@@ -1,0 +1,7 @@
+public class ParkLocator {
+
+    public static string[] country(string theCountry) {
+        ParkService.ParksImplPort  parkSvc = new  ParkService.ParksImplPort(); // remove space
+        return parkSvc.byCountry(theCountry);
+    }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Age_Must_Be_Greater_than_18</fullName>
+    <active>true</active>
+    <errorConditionFormula>Age__c &lt; 18</errorConditionFormula>
+    <errorMessage>Age Must Be Greater than 18</errorMessage>
+</ValidationRule>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>Flight_Image</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>Creating Airlines Management System for the Flight, Flight Schedules, Pilots, Pilots Schedule</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Airlines Management System</label>
+    <navType>Standard</navType>
+    <tabs>Flight__c</tabs>
+    <tabs>Fight_Schedule__c</tabs>
+    <tabs>Pilot__c</tabs>
+    <tabs>Pilot_Schedule__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Airlines_Management_System_UtilityBar</utilityBar>
+</CustomApplication>
